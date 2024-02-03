@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+youtube-transcript-api = "*"
+streamlit = "*"
+google-generativeai = "*"
+python-dotenv = "*"
+pathlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
