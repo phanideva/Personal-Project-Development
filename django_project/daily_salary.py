@@ -66,13 +66,20 @@ def save_to_excel(df, output_path):
     wb.save(output_path)
 
 if __name__ == "__main__":
+    # Fetch the output directory from the database
+    config = PathConfig.objects.get(name="Default")
+    output_directory = config.output_directory  # Use the directory from the database
+    
+    # Ensure this directory exists
+    if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
+
     # Define the date range
     start_date = datetime(2023, 1, 1)
     end_date = datetime(2023, 1, 31)
     
     # Generate data and save to Excel
     df = generate_data(start_date, end_date)
-    output_directory = 'D:\\Python Practice files'  # Ensure this directory exists
     today_str = datetime.now().strftime('%m-%d-%Y')
     filename = f"{today_str} Salary Compensation.xlsx"
     output_path = os.path.join(output_directory, filename)
