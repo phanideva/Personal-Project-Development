@@ -1,5 +1,6 @@
 import csv
 import sys
+import os
 
 from util import Node, StackFrontier, QueueFrontier
 
@@ -12,6 +13,10 @@ people = {}
 # Maps movie_ids to a dictionary of: title, year, stars (a set of person_ids)
 movies = {}
 
+directory = rf"C:\Users\phani\Python practice\degrees"
+
+# Change the current working directory
+os.chdir(directory)
 
 def load_data(directory):
     """
@@ -91,8 +96,35 @@ def shortest_path(source, target):
 
     If no possible path, returns None.
     """
+    # Initialize the frontier with the starting position
+    start = Node(state=source, parent=None, action=None)
+    frontier = QueueFrontier()
+    frontier.add(start)
 
-    # TODO
+    # Initialize an empty explored set
+    explored = set()
+
+    # Loop until the frontier is empty
+    while not frontier.empty():
+        # Remove a node from the frontier
+        current_node = frontier.remove()
+
+        # Mark the node as explored
+        explored.add(current_node.state)
+
+        # Expand the node to find all neighbors
+        for movie_id, person_id in neighbors_for_person(current_node.state):
+            if person_id not in explored and not frontier.contains_state(person_id):
+                child = Node(state=person_id, parent=current_node, action=movie_id)
+                # If the child's state is the goal, return the path
+                if child.state == target:
+                    path = []
+                    while child.parent is not None:
+                        path.append((child.action, child.state))
+                        child = child.parent
+                    path.reverse()
+                    return path
+                frontier.add(child)
     raise NotImplementedError
 
 
