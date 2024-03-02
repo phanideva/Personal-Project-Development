@@ -20,17 +20,3 @@ knowledge = And(
 )
 
 print(model_check(knowledge, rain))
-
-class Loan(models.Model):
-    """
-    A class representing WHOLE (loan + msr) loans for Freedom.
-
-    Omitted fields from Client_Coissue_Tape:
-       - transfer
-    """
-    __str__ = "freedom_loan"
-
-    class Meta:
-        app_label = "freedom"
-
-    commitment = JSONField(default=dict, blank=True, null=True)
