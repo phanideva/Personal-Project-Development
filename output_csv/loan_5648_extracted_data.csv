@@ -1,0 +1,49 @@
+PDF Name,Extracted Text,Text as List,Page Number,Predicted Filename,Confidence
+loan_5648_W2.pdf,"W2 Statement
+Employee: John Doe, Year: 2021, Employer: ABC Corp, Wages: $50,000
+","['W2 Statement', 'Employee: John Doe, Year: 2021, Employer: ABC Corp, Wages: $50,000', '']",0,W2,0.39972693994027453
+loan_5648_Paystubs.pdf,"Paystub
+Employee: John Doe, Month: January, Hours Worked: 160, Gross Pay: $4,000
+","['Paystub', 'Employee: John Doe, Month: January, Hours Worked: 160, Gross Pay: $4,000', '']",1,Paystubs,0.5089196235973229
+loan_5648_Renewal_Doc.pdf,"Renewal Document
+Insurance: Car Insurance, Policy No: 123456, Expiry: 2022-01-01
+","['Renewal Document', 'Insurance: Car Insurance, Policy No: 123456, Expiry: 2022-01-01', '']",2,Renewal_Doc,0.5192525956288261
+loan_5648_Tax_Statement.pdf,"Tax Statement
+Tax Year: 2021, Form: 1040, Income: $50,000, Tax: $5,000
+","['Tax Statement', 'Tax Year: 2021, Form: 1040, Income: $50,000, Tax: $5,000', '']",3,Tax_Statement,0.4277413664339979
+loan_5648_W2.pdf,"W2 Statement
+Employee: Jane Smith, Year: 2020, Employer: XYZ Inc, Wages: $60,000
+","['W2 Statement', 'Employee: Jane Smith, Year: 2020, Employer: XYZ Inc, Wages: $60,000', '']",4,W2,0.39972693994027453
+loan_5648_Paystubs.pdf,"Paystub
+Employee: Jane Smith, Month: February, Hours Worked: 160, Gross Pay: $5,000
+","['Paystub', 'Employee: Jane Smith, Month: February, Hours Worked: 160, Gross Pay: $5,000', '']",5,Paystubs,0.5089196235973229
+loan_5648_Renewal_Doc.pdf,"Renewal Document
+Insurance: Health Insurance, Policy No: 654321, Expiry: 2022-06-01
+","['Renewal Document', 'Insurance: Health Insurance, Policy No: 654321, Expiry: 2022-06-01', '']",6,Renewal_Doc,0.5192525956288261
+loan_5648_Tax_Statement.pdf,"Tax Statement
+Tax Year: 2020, Form: 1040, Income: $60,000, Tax: $6,000
+","['Tax Statement', 'Tax Year: 2020, Form: 1040, Income: $60,000, Tax: $6,000', '']",7,Tax_Statement,0.4277413664339979
+loan_5648_W2.pdf,"W2 Statement
+Employee: John Doe, Year: 2019, Employer: ABC Corp, Wages: $55,000
+","['W2 Statement', 'Employee: John Doe, Year: 2019, Employer: ABC Corp, Wages: $55,000', '']",8,W2,0.39972693994027453
+loan_5648_Paystubs.pdf,"Paystub
+Employee: John Doe, Month: March, Hours Worked: 160, Gross Pay: $4,500
+","['Paystub', 'Employee: John Doe, Month: March, Hours Worked: 160, Gross Pay: $4,500', '']",9,Paystubs,0.5089196235973229
+loan_5648_Renewal_Doc.pdf,"Renewal Document
+Insurance: Home Insurance, Policy No: 789012, Expiry: 2023-01-01
+","['Renewal Document', 'Insurance: Home Insurance, Policy No: 789012, Expiry: 2023-01-01', '']",10,Renewal_Doc,0.47491206629079746
+loan_5648_Tax_Statement.pdf,"Tax Statement
+Tax Year: 2019, Form: 1040, Income: $55,000, Tax: $5,500
+","['Tax Statement', 'Tax Year: 2019, Form: 1040, Income: $55,000, Tax: $5,500', '']",11,Tax_Statement,0.4277413664339979
+loan_5648_W2.pdf,"W2 Statement
+Employee: Jane Smith, Year: 2018, Employer: XYZ Inc, Wages: $65,000
+","['W2 Statement', 'Employee: Jane Smith, Year: 2018, Employer: XYZ Inc, Wages: $65,000', '']",12,W2,0.39972693994027453
+loan_5648_Paystubs.pdf,"Paystub
+Employee: Jane Smith, Month: April, Hours Worked: 160, Gross Pay: $5,500
+","['Paystub', 'Employee: Jane Smith, Month: April, Hours Worked: 160, Gross Pay: $5,500', '']",13,Paystubs,0.5089196235973229
+loan_5648_Renewal_Doc.pdf,"Renewal Document
+Insurance: Life Insurance, Policy No: 345678, Expiry: 2024-01-01
+","['Renewal Document', 'Insurance: Life Insurance, Policy No: 345678, Expiry: 2024-01-01', '']",14,Renewal_Doc,0.5192525956288261
+loan_5648_Tax_Statement.pdf,"Tax Statement
+Tax Year: 2018, Form: 1040, Income: $65,000, Tax: $6,500
+","['Tax Statement', 'Tax Year: 2018, Form: 1040, Income: $65,000, Tax: $6,500', '']",15,Tax_Statement,0.4277413664339979
