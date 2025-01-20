@@ -2,12 +2,7 @@ import random
 
 # List of names in your company
 names = [
-    "Al", "Ellen", "James", "Peter", "Abdi",
-    "Biraj", "Brian", "Chase", "Connor", "Eric",
-    "Kevin S", "Jay", "Billy", "Joe", "Joseph L",
-    "Joshua", "KC", "Mark", "Matth", "Michael B",
-    "Chi", "Ritchie", "Steven D", "Travis", "Cheryl",
-    "Yuvi"
+    " "
 ]
 
 def randomize_names():
