@@ -1,6 +1,6 @@
 # Personal-Project-Development
 
-![Owner](https://github.com/phanideva/Personal-Project-Development)  
+![Owner](https://github.com/phanideva/Personal-Project-Development): Phani Deva  
 _A collection of personal development projects in AI, ML, Django, and more._
 
 ## 📄 Description
