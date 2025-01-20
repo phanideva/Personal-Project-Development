@@ -1,0 +1,147 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+myenv/
+env/
+.venv/
+*.env
+*.venv
+
+# Node.js dependencies
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Python dependencies
+*.egg-info/
+pip-log.txt
+pip-delete-this-directory.txt
+Pipfile.lock
+
+# Django related files
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.so
+*.orig
+
+# Coverage reports
+.coverage
+.coverage.*
+*.cover
+*.py,cover
+coverage.xml
+nosetests.xml
+test-results.xml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Compiled files and cache
+*.out
+*.class
+*.o
+*.lo
+*.la
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.exe
+*.app
+*.dSYM/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build directories
+build/
+dist/
+site/
+staticfiles/
+*.bak
+
+# Docker
+docker-compose.override.yml
+.Dockerfile
+docker-sync.yml
+
+# AWS credentials
+.aws/
+
+# Flask
+instance/
+*.db
+*.sqlite
+
+# Logs and database files
+logs/
+*.log
+*.sqlite3
+*.db-journal
+*.sql
+
+# PyTest cache
+.pytest_cache/
+
+# Miscellaneous
+*.DS_Store
+*.envrc
+*.env.local
+*.env.example
+*.cache
+*.bak
+
+# Tesseract OCR related
+tesseract/
+pytesseract_ocr_extract/
+
+# Finance project specific
+finance_project/
+financial_usecase.ipynb
+financialanalysis.ipynb
+
+# Chess and Snake game files
+chess_game/
+snake_game/
+tictactoe/
+
+# AWS operation scripts
+aws_operations/
+
+# Health App related files
+Health App/
+
+# Excluding PDF and generated report files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+order_receipt_with_table_and_logo.pdf
+order_summary.csv
+
+# Excluding TensorFlow/PyTorch model files
+*.h5
+*.hdf5
+*.pkl
+*.pt
+*.onnx
