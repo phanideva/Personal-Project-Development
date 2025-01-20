@@ -100,6 +100,6 @@ if __name__ == '__main__':
     model = load_model()
 
     # Example usage
-    input_pdf = 'loan_5648_Origination_File.pdf'
-    output_prefix = 'loan_5648'
+    input_pdf = '.pdf'
+    output_prefix = ''
     split_pdf_by_category(input_pdf, output_prefix, model)
