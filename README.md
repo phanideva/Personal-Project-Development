@@ -13,28 +13,68 @@ This repository contains a variety of personal projects focused on data science,
 
 Here's an overview of the key projects and folders in this repository:
 
-├── .github/workflows # GitHub actions for CI/CD automation 
-├── AI and ML practice # Machine Learning and AI scripts and models 
-├── Health App # Health-related application in Django 
-├── MLmodels # Machine Learning models for loan pricing, etc. 
-├── Pydantic library usage # Scripts for data validation using Pydantic 
-├── aws_operations # AWS scripts for S3 operations, etc. 
-├── chess_game # Chess game implementation 
-├── data/MNIST/raw # MNIST dataset for DL projects
-├── dave_game # Dave game look a like implementation
-├── degrees # Shortest path algorithm implementation 
-├── django_project # Full-stack web app using Django 
-├── finance_project # Django finance management application 
-├── pytesseract_ocr_extract # OCR implementation using Tesseract 
-├── snake_game # Classic snake game implementation 
-├── test_project # Unit testing scripts using pytest 
-├── tictactoe # TicTacToe game using Python 
-├── venv # Virtual environment │ 
-├── EDA_analysis.ipynb # Exploratory Data Analysis (EDA) 
-├── financial_usecase.ipynb # Financial analysis use cases 
-├── requirements.txt # Project dependencies 
-└── README.md # Project documentation
-
+├── .github/workflows          
+│   # GitHub actions for CI/CD automation
+│
+├── AI and ML practice         
+│   # Machine Learning and AI scripts and models
+│
+├── Health App                 
+│   # Health-related application in Django
+│
+├── MLmodels                    
+│   # Machine Learning models for loan pricing, etc.
+│
+├── Pydantic library usage      
+│   # Scripts for data validation using Pydantic
+│
+├── aws_operations              
+│   # AWS scripts for S3 operations, etc.
+│
+├── chess_game                  
+│   # Chess game implementation
+│
+├── data/MNIST/raw              
+│   # MNIST dataset for DL projects
+│
+├── dave_game                  
+│   # Dave game look-a-like implementation
+│
+├── degrees                     
+│   # Shortest path algorithm implementation
+│
+├── django_project               
+│   # Full-stack web app using Django
+│
+├── finance_project              
+│   # Django finance management application
+│
+├── pytesseract_ocr_extract       
+│   # OCR implementation using Tesseract
+│
+├── snake_game                   
+│   # Classic snake game implementation
+│
+├── test_project                 
+│   # Unit testing scripts using pytest
+│
+├── tictactoe                    
+│   # TicTacToe game using Python
+│
+├── venv                          
+│   # Virtual environment
+│
+├── EDA_analysis.ipynb             
+│   # Exploratory Data Analysis (EDA)
+│
+├── financial_usecase.ipynb        
+│   # Financial analysis use cases
+│
+├── requirements.txt               
+│   # Project dependencies
+│
+└── README.md                      
+    # Project documentation
 ---
 
 ## 🚀 Installation
