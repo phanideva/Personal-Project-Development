@@ -5,3 +5,8 @@ python-dotenv
 pathlib
 PyPDF2
 matplotlib.pyplot
+os
+multiprocessing
+matplotlib
+rasterio
+numpy
