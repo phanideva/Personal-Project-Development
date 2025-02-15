@@ -145,6 +145,3 @@ order_summary.csv
 *.pkl
 *.pt
 *.onnx
-
-myenv/
-venv/
